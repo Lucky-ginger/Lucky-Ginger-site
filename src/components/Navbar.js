@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import logo from '../img/logo.svg'
+import logo from '../img/lucky-logo.png'
 
 const Navbar = () => (
   <nav className="navbar is-transparent">
@@ -8,7 +8,7 @@ const Navbar = () => (
       <div className="navbar-brand">
         <Link to="/" className="navbar-item">
           <figure className="image">
-            <img src={logo} alt="Lucky Ginger" style={{ width: '88px' }} />
+            <img src={logo} alt="Lucky Ginger" style={{ width: '88px' ,heigh:auto}} />
           </figure>
         </Link>
       </div>
