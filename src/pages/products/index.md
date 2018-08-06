@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 title: Our Menu
-image: /img/jumbotron.jpg
+image: /img/coffee-gear.png
 heading: What we offer
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
@@ -70,8 +70,11 @@ testimonials:
       stance on empowering farmers and transparency.
 full_image: /img/products-full-width.jpg
 pricing:
-  heading: ''
-  description: ''
-  plans: []
+  heading: Our menu
+  description: Our menu is available
+  plans:
+    - description: Booking a table is easy
+      plan: Reservations
+      price: Free
 ---
 
