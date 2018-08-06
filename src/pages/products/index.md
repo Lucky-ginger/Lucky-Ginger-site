@@ -72,6 +72,9 @@ full_image: /img/products-full-width.jpg
 pricing:
   heading: ''
   description: ''
-  plans: []
+  plans:
+    - description: Booking a table is easy
+      plan: Reservations
+      price: Free
 ---
 
