@@ -1,7 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
-import config from '../../meta/config'
 
 export default class IndexPage extends React.Component {
   render() {
@@ -16,7 +15,7 @@ export default class IndexPage extends React.Component {
               <div className='column is-10 is-offset-1'>
                 <div className='section'>
                   <h1 className='title'>
-                    {config.siteTitle}
+                    Lucky Ginger
                   </h1>
                 </div>
               </div>
@@ -60,7 +59,6 @@ export default class IndexPage extends React.Component {
 }
 
 IndexPage.propTypes = {
-  title: PropTypes.string,
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.array,
