@@ -8,21 +8,6 @@ export default class IndexPage extends React.Component {
     const { edges: posts } = data.allMarkdownRemark
 
     return (
-      <section className='hero is-primary is-bold'>
-        <div className='hero-body'>
-          <div className='container'>
-            <div className='columns'>
-              <div className='column is-10 is-offset-1'>
-                <div className='section'>
-                  <h1 className='title'>
-                    Lucky Ginger
-                  </h1>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
       <section className="section">
         <div className="container">
           <div className="content">
