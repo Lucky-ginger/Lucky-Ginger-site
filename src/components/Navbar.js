@@ -8,7 +8,7 @@ const Navbar = () => (
       <div className="navbar-brand">
         <Link to="/" className="navbar-item">
           <figure className="image">
-            <img src={logo} alt="Lucky Ginger" style={{flex:1, height: undefined, width: undefined}}   resizeMode="contain"/>
+            <img src={logo} alt="Lucky Ginger" style={{flex:1, height: '88px', width: 'auto'}} />
           </figure>
         </Link>
       </div>
