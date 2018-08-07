@@ -17,7 +17,7 @@ export default class IndexPage extends React.Component {
               <div className='column is-10 is-offset-1'>
                 <div className='section'>
                   <h1 className='title'>
-                    {config.siteTitle}
+                    Lucky Ginger
                   </h1>
                 </div>
               </div>
