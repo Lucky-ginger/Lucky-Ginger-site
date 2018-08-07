@@ -19,6 +19,10 @@ export const ProductPageTemplate = ({
         <div className="columns">
           <div className="column is-10 is-offset-1">
             <div className="content">
+              <div
+                className="full-width-image-container margin-top-0"
+                style={{ backgroundImage: `url(${image})` }}
+              >
                 <h2
                   className="has-text-weight-bold is-size-1"
                   style={{
