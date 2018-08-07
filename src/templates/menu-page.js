@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import Features from '../components/Features'
 import Testimonials from '../components/Testimonials'
 
-export const ProductPageTemplate = ({
+export const MenuPageTemplate = ({
   image,
   title,
   heading,
@@ -99,7 +99,7 @@ export const ProductPageTemplate = ({
   </section>
 )
 
-ProductPageTemplate.propTypes = {
+MenuPageTemplate.propTypes = {
   image: PropTypes.string,
   title: PropTypes.string,
   heading: PropTypes.string,
@@ -118,11 +118,11 @@ ProductPageTemplate.propTypes = {
   fullImage: PropTypes.string,
 }
 
-const ProductPage = ({ data }) => {
+const MenuPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark
 
   return (
-    <ProductPageTemplate
+    <MenuPageTemplate
       image={frontmatter.image}
       title={frontmatter.title}
       heading={frontmatter.heading}
@@ -135,7 +135,7 @@ const ProductPage = ({ data }) => {
   )
 }
 
-ProductPage.propTypes = {
+MenuPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
       frontmatter: PropTypes.object,
@@ -143,10 +143,10 @@ ProductPage.propTypes = {
   }),
 }
 
-export default ProductPage
+export default MenuPage
 
-export const productPageQuery = graphql`
-  query ProductPage($id: String!) {
+export const MenuPageQuery = graphql`
+  query MenuPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         title
