@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { MenuPageTemplate } from '../../templates/Menu-page'
+import { MenuPageTemplate } from '../../templates/menu-page'
 
 const MenuPagePreview = ({ entry, getAsset }) => {
   const entryBlurbs = entry.getIn(['data', 'intro', 'blurbs'])
