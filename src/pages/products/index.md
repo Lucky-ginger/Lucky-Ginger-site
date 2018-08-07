@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 title: Our Menu
-image: /img/waffle.jpg
+image: /img/oysters.jpg
 heading: What we offer
 description: Lucky Ginger is.....
 intro:
@@ -24,8 +24,8 @@ main:
     We hold our food to the highest standards from the flame to the plate.
     That’s why we’re meticulous about each step in our process.
   image1:
-    alt: Oysters
-    image: /img/oysters.jpg
+    alt: Basil bloody
+    image: /img/basil-.jpg
   image2:
     alt: Sushi Burrito
     image: /img/sushi-burrito.jpg
