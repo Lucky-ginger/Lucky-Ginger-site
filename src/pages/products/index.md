@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 title: Our Menu
-image: /img/egg-roll.jpg
+image: /img/waffle.jpg
 heading: What we offer
 description: Lucky Ginger is.....
 intro:
@@ -10,6 +10,8 @@ intro:
       text: >-
         Filet mignon marinated in Korean BBQ sauce, served with wasabi garlic
         mashed potatoes and grilled asparagus.
+    - image: /img/egg-roll.jpg
+      text: 'Corned Beef, Fried Rice Egg rolls '
   heading: What we offer
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their
@@ -28,8 +30,8 @@ main:
     alt: Sushi Burrito
     image: /img/sushi-burrito.jpg
   image3:
-    alt: Pho
-    image: /img/pho.jpg
+    alt: Poke Bowl
+    image: /img/poke.jpg
 testimonials:
   - author: Alibell C.
     quote: >-
@@ -42,7 +44,7 @@ testimonials:
     quote: >-
       Fantastic Thai food in historic Third Ward! beautiful renovation in an old
       building.
-full_image: /img/poke.jpg
+full_image: /img/pho.jpg
 pricing:
   heading: Our menu
   description: Our menu is available
