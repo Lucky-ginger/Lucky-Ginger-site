@@ -1,5 +1,5 @@
 ---
-templateKey: product-page
+templateKey: menu-page
 title: Our Menu
 image: /img/oysters.jpg
 heading: What we offer
@@ -53,4 +53,3 @@ pricing:
       plan: Reservations
       price: Free
 ---
-
