@@ -9,11 +9,7 @@ module.exports = {
   pathPrefix: '/', // Prefixes all links. For cases when deployed to example.github.io/gatsby-starter-business/.
   siteDescription: 'Thai and Pan Asian food from Lucky Ginger in Milwaukee, WI', // Website description used for RSS feeds/meta description tag.
   siteRss: '/rss.xml',
-  siteFBAppID: '', // FB Application ID for using app insights
-  googleTagManagerID: '', // GTM tracking ID.
-  disqusShortname: 'lucky-ginger', // Disqus shortname.
-  userName: '',
-  userTwitter: 'vaibhaved',
+  userTwitter: 'luckyginger',
   userLocation: 'Milwaukee, WI',
   userDescription: '',
   copyright: 'Copyright © Lucky Ginger 2018. All Rights Reserved.', // Copyright string for the footer of the website and RSS feed.

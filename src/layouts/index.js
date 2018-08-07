@@ -7,7 +7,10 @@ import './all.sass'
 
 const TemplateWrapper = ({ children }) => (
   <div>
-    <Helmet title="Lucky Ginger - Milwaukee, WI" />
+    <Helmet>
+      <title>{config.siteTitle}</title>
+      <meta name='description' content={config.siteDescription} />
+    </Helmet>
     <Navbar />
     <div>{children()}</div>
     <Footer/>
